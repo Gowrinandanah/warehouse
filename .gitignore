@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+**/node_modules/
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local databases and SQLite sidecar files
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.sqlite3-*
+
+# Build output and test artifacts
+dist/
+**/dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db

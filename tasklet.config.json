@@ -1,0 +1,6 @@
+{
+  "name": "warehouse-digital-twin",
+  "displayName": "Warehouse Digital Twin",
+  "description": "Design warehouse layouts, simulate picking operations, compare scenarios, and review performance metrics.",
+  "instantAppType": "tsx"
+}
