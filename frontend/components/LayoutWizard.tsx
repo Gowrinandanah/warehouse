@@ -821,7 +821,7 @@ export const LayoutWizard: React.FC<Props> = ({ onProceed }) => {
         <div>
           <span className="layout-kicker">STEP {String(step + 1).padStart(2, '0')} / 06</span>
           <h1>{steps[step].title === 'Dimensions' ? 'Define your warehouse' : steps[step].title === 'Review' ? 'Review your floor plan' : `Set up ${steps[step].title.toLowerCase()}`}</h1>
-          <p>{step === 0 ? 'Choose the floor size and a starting point. You can change everything later.' : step === 5 ? 'Check your layout, resolve any issues, then save or continue to simulation.' : 'Drag an item onto the floor, or select it to add. Arrange the space to match your operation.'}</p>
+          <p>{step === 0 ? 'Choose the floor size and a starting point.' : step === 5 ? 'Check your layout, resolve any issues, then save or continue to simulation.' : 'Drag an item onto the floor, or select it to add. Arrange the space to match your operation.'}</p>
         </div>
         {step > 0 && step < 5 && <div className="layout-live-stats"><span><b>{plan.objects.length}</b> objects</span><span><b>{utilization.toFixed(1)}%</b> floor area used</span></div>}
       </div>

@@ -62,8 +62,6 @@ export const AuthScreen: React.FC<Props> = ({ onAuthenticated }) => {
         </div>
         <div className="auth-story-copy">
           <span className="auth-eyebrow"><span /> OPERATIONS, IN FULL VIEW</span>
-          <h1>Make every<br />square metre<br /><em>work smarter.</em></h1>
-          <p>Design your floor. Test your flow. Find the layout that moves your operation forward.</p>
         </div>
         <div className="auth-visual" aria-hidden="true">
           <div className="auth-visual-label"><span><i /> LIVE FLOOR PLAN</span><span>ZONE A — 01</span></div>
@@ -76,7 +74,6 @@ export const AuthScreen: React.FC<Props> = ({ onAuthenticated }) => {
           </div>
           <div className="auth-visual-footer"><span><i className="auth-legend-shelf" /> STORAGE</span><span><i className="auth-legend-route" /> PICK ROUTE</span><span><i className="auth-legend-station" /> STATION</span></div>
         </div>
-        <div className="auth-story-foot"><span>PLAN WITH PRECISION.</span><span>MOVE WITH PURPOSE.</span></div>
       </section>
 
       <section className="auth-panel">
@@ -127,7 +124,7 @@ export const AuthScreen: React.FC<Props> = ({ onAuthenticated }) => {
           </div>
           <div className="auth-secure-note"><LockKeyhole size={14} /> Your sign-in is protected with encrypted credentials.</div>
         </div>
-        <footer className="auth-panel-foot"><span>WAREHOUSE DIGITAL TWIN</span><span>DESIGNED FOR WHAT'S NEXT</span></footer>
+        <footer className="auth-panel-foot"><span>WAREHOUSE DIGITAL TWIN</span></footer>
       </section>
     </main>
   );
